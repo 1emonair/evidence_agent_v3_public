@@ -1,0 +1,127 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "科大讯飞",
+    "entity_id": "002230",
+    "ABRI_T": 75.1,
+    "T_tier": "T5",
+    "tier": 5,
+    "O_eq": 83.75,
+    "S_score": 90.0,
+    "S_high": 1,
+    "red_flag": 1,
+    "EVC": 0.0,
+    "filed": 1
+  },
+  "cards": [],
+  "upgrade_cards": [
+    {
+      "kind": "upgrade",
+      "entity_name": "科大讯飞",
+      "fiscal_year": 2023,
+      "document_id": "CNINFO_1219744478",
+      "item": "A4",
+      "keyword": "可信AI",
+      "frozen_level": "L1b",
+      "semantic": "算",
+      "cert_id_found": false,
+      "status": "升级候选",
+      "label": "held_claim",
+      "confidence": 0.75,
+      "citation": "年1月发布的大模型测评报告中，讯飞星火综合能力国内最优，国际一流此外，讯飞星火已通过中国信通院组织的国内首个官方可信AIGC大模型基础能力（功能）评测，并且获得认证通过全部功能项也通过了中国信通院组织的可信AI大模型标准符合性验证，",
+      "reason": "词表外写法命中，判读为本企业持证/已备案；需人工确认后才升 L2。声称本企业（或子公司）取得认证/资质，需核对证书编号。",
+      "needs_human": true,
+      "backend": "rules",
+      "snippet": "合能力国内最优，国际一流此外，讯飞星火已通过中国信通院组织的国内首个官方可信AIGC大模型基础能力（功能）评测，并且获得认证通过全部功能项也通过了中国信",
+      "tool_trace": [
+        "recall_search:可信AI",
+        "judge:held_claim/rules",
+        "find_cert_id:False"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1219744478:A4:recall:可信AI"
+    }
+  ],
+  "scenario": {
+    "strict": {
+      "O_prime": 83.75,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    },
+    "loose": {
+      "O_prime": 83.75,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    },
+    "strict_upper": {
+      "O_prime": 83.33,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 1,
+      "changes": [
+        {
+          "document_id": "CNINFO_1219744478",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L1b",
+          "to": "L2"
+        }
+      ]
+    }
+  },
+  "suggestion": "有卡片待人工确认，已写入审批队列。 冻结口径为高暴露且无可核验证据。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "find_cert_id",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 5
+}

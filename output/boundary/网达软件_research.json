@@ -1,0 +1,90 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "网达软件",
+    "entity_id": "603189",
+    "ABRI_T": 47.84,
+    "T_tier": "T5",
+    "tier": 4,
+    "O_eq": 95.83,
+    "S_score": 36.0,
+    "S_high": 1,
+    "red_flag": 1,
+    "EVC": 0.0,
+    "filed": 0
+  },
+  "cards": [],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 95.83,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    },
+    "loose": {
+      "O_prime": 95.83,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    },
+    "strict_upper": {
+      "O_prime": 95.83,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    }
+  },
+  "suggestion": "无 L2 原文可复查、也未发现词表外证据。按未披露处理，不把沉默当作治理失败。 冻结口径为高暴露且无可核验证据。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 5
+}

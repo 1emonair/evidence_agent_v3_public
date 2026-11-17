@@ -1,0 +1,295 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "普联软件",
+    "entity_id": "300996",
+    "ABRI_T": 30.88,
+    "T_tier": "T4",
+    "tier": 3,
+    "O_eq": 81.25,
+    "S_score": 40.0,
+    "S_high": 1,
+    "red_flag": 0,
+    "EVC": 0.0,
+    "filed": 0
+  },
+  "cards": [
+    {
+      "kind": "review",
+      "entity_name": "普联软件",
+      "fiscal_year": 2021,
+      "document_id": "CNINFO_1212752922",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 0,
+      "ch2_verdict": "DEF",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "definition",
+      "confidence": 0.85,
+      "citation": "该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModelIntegration）XBRL指可扩展",
+      "other_support": "",
+      "reason": "出现在释义或概念介绍中，不是本企业的持证陈述。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "统一软件平台。该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModel",
+      "tool_trace": [
+        "judge:definition/rules/0.85",
+        "expand_context→definition/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1212752922:A4:CMMI"
+    },
+    {
+      "kind": "review",
+      "entity_name": "普联软件",
+      "fiscal_year": 2022,
+      "document_id": "CNINFO_1216413635",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 0,
+      "ch2_verdict": "DEF",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "definition",
+      "confidence": 0.85,
+      "citation": "该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModelIntegration）XBRL指可扩展",
+      "other_support": "",
+      "reason": "出现在释义或概念介绍中，不是本企业的持证陈述。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "统一软件平台。该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModel",
+      "tool_trace": [
+        "judge:definition/rules/0.85",
+        "expand_context→definition/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1216413635:A4:CMMI"
+    },
+    {
+      "kind": "review",
+      "entity_name": "普联软件",
+      "fiscal_year": 2023,
+      "document_id": "CNINFO_1219598562",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 0,
+      "ch2_verdict": "DEF",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "definition",
+      "confidence": 0.85,
+      "citation": "该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModelIntegration）XBRL指可扩展",
+      "other_support": "",
+      "reason": "出现在释义或概念介绍中，不是本企业的持证陈述。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "统一软件平台。该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModel",
+      "tool_trace": [
+        "judge:definition/rules/0.85",
+        "expand_context→definition/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1219598562:A4:CMMI"
+    },
+    {
+      "kind": "review",
+      "entity_name": "普联软件",
+      "fiscal_year": 2024,
+      "document_id": "CNINFO_1222972153",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 0,
+      "ch2_verdict": "DEF",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "definition",
+      "confidence": 0.85,
+      "citation": "该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModelIntegration）XBRL指可扩展",
+      "other_support": "",
+      "reason": "出现在释义或概念介绍中，不是本企业的持证陈述。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "统一软件平台。该平台提供可视化和集成化开发模式，是公司目前的主流研发平台CMMI指软件能力成熟度模型集成（CapabilityMaturityModel",
+      "tool_trace": [
+        "judge:definition/rules/0.85",
+        "expand_context→definition/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1222972153:A4:CMMI"
+    }
+  ],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 87.5,
+      "red_flag_prime": 1,
+      "flip": 1,
+      "n_down": 4,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1212752922",
+          "fiscal_year": 2021,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216413635",
+          "fiscal_year": 2022,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219598562",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1222972153",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "loose": {
+      "O_prime": 87.5,
+      "red_flag_prime": 1,
+      "flip": 1,
+      "n_down": 4,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1212752922",
+          "fiscal_year": 2021,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216413635",
+          "fiscal_year": 2022,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219598562",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1222972153",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "strict_upper": {
+      "O_prime": 87.5,
+      "red_flag_prime": 1,
+      "flip": 1,
+      "n_down": 4,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1212752922",
+          "fiscal_year": 2021,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216413635",
+          "fiscal_year": 2022,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219598562",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1222972153",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    }
+  },
+  "suggestion": "strict 情景红旗 0→1，转人工复核 O 的证据基础。 部分原记 L2 的命中不构成本企业证据，已出补件项。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "expand_context",
+    "same_doc_search",
+    "expand_context",
+    "same_doc_search",
+    "expand_context",
+    "same_doc_search",
+    "expand_context",
+    "same_doc_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 4
+}

@@ -1,0 +1,123 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "天亿马",
+    "entity_id": "301178",
+    "ABRI_T": 29.41,
+    "T_tier": "T4",
+    "tier": 3,
+    "O_eq": 72.4,
+    "S_score": 55.0,
+    "S_high": 1,
+    "red_flag": 0,
+    "EVC": 1.56,
+    "filed": 0
+  },
+  "cards": [
+    {
+      "kind": "review",
+      "entity_name": "天亿马",
+      "fiscal_year": 2024,
+      "document_id": "CNINFO_1223194080",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "LIST",
+      "semantic": "算",
+      "cert_id_found": false,
+      "status": "披露但未核实",
+      "label": "held_claim",
+      "confidence": 0.65,
+      "citation": "子与智能化工程专业承包一级资质、建筑机电安装工程专业二级、广东省涉密计算机、广东省防雷企业能力评价证书（C级）、CMMI3(软件能力成熟度模型集成)、ITSS信息技术服务标准符合性证书（三级）、CS信息系统建设和服务能力等级证书（良",
+      "other_support": "",
+      "reason": "资质清单的一项，句首动词为取得/通过类，需核对证书编号。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "安装工程专业二级、广东省涉密计算机、广东省防雷企业能力评价证书（C级）、CMMI3(软件能力成熟度模型集成)、ITSS信息技术服务标准符合性证书（三级）",
+      "tool_trace": [
+        "judge:held_claim/rules/0.65",
+        "expand_context→held_claim/rules",
+        "find_cert_id:False"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1223194080:A4:CMMI"
+    }
+  ],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 72.4,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    },
+    "loose": {
+      "O_prime": 72.92,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 1,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1223194080",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L1b"
+        }
+      ]
+    },
+    "strict_upper": {
+      "O_prime": 72.4,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    }
+  },
+  "suggestion": "本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "expand_context",
+    "find_cert_id",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 4
+}
