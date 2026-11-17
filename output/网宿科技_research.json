@@ -1,0 +1,198 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "网宿科技",
+    "entity_id": "300017",
+    "ABRI_T": 16.08,
+    "T_tier": "T2",
+    "tier": 2,
+    "O_eq": 92.5,
+    "S_score": 20.0,
+    "S_high": 0,
+    "red_flag": 0,
+    "EVC": 2.5,
+    "filed": 0
+  },
+  "cards": [
+    {
+      "kind": "review",
+      "entity_name": "网宿科技",
+      "fiscal_year": 2021,
+      "document_id": "CNINFO_1213056655",
+      "item": "O1",
+      "keyword": "ITIL",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "abbreviation",
+      "confidence": 0.9,
+      "citation": "BigOps一体化运维管理平台，系公司自主研发的一体化运维管理平台，平台融入了ITIL、SRE、DevOps等多种运维理念，通过自动化、标准化、可视化、智能化的方式，帮助企业提高运维效率",
+      "other_support": "",
+      "reason": "缩写出现在算法/运维方法语境，不是治理岗位或企业资质。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "Ops一体化运维管理平台，系公司自主研发的一体化运维管理平台，平台融入了ITIL、SRE、DevOps等多种运维理念，通过自动化、标准化、可视化、智能化",
+      "tool_trace": [
+        "judge:abbreviation/rules/0.90",
+        "expand_context→abbreviation/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1213056655:O1:ITIL"
+    },
+    {
+      "kind": "review",
+      "entity_name": "网宿科技",
+      "fiscal_year": 2022,
+      "document_id": "CNINFO_1216475570",
+      "item": "O1",
+      "keyword": "ITIL",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "abbreviation",
+      "confidence": 0.9,
+      "citation": "BigOps一体化运维管理平台，系公司自主研发的一体化运维管理平台，平台融入了ITIL、SRE、DevOps等多种运维理念，通过自动化、标准化、可视化、智能化的方式，帮助企业提高运维效率",
+      "other_support": "",
+      "reason": "缩写出现在算法/运维方法语境，不是治理岗位或企业资质。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "Ops一体化运维管理平台，系公司自主研发的一体化运维管理平台，平台融入了ITIL、SRE、DevOps等多种运维理念，通过自动化、标准化、可视化、智能化",
+      "tool_trace": [
+        "judge:abbreviation/rules/0.90",
+        "expand_context→abbreviation/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1216475570:O1:ITIL"
+    }
+  ],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 95.0,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 2,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1213056655",
+          "fiscal_year": 2021,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216475570",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "loose": {
+      "O_prime": 95.0,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 2,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1213056655",
+          "fiscal_year": 2021,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216475570",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "strict_upper": {
+      "O_prime": 95.0,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 2,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1213056655",
+          "fiscal_year": 2021,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216475570",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    }
+  },
+  "suggestion": "部分原记 L2 的命中不构成本企业证据，已出补件项。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "expand_context",
+    "same_doc_search",
+    "expand_context",
+    "same_doc_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 5
+}
