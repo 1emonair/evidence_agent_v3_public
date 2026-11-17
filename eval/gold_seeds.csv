@@ -1,0 +1,83 @@
+entity_name,fiscal_year,item,keyword,gold_semantic,reason_type,note,source
+国华网安,2024,D1,数据安全认证,不算,customer_service,协助企业选择数据安全认证证书=客户咨询,seed_v2
+新开普,2024,A1,DPO,不算,abbreviation,SFT/DPO 算法缩写,seed_v2
+网宿科技,2021,O1,ITIL,不算,method_reference,平台融入ITIL等运维理念,seed_v2
+网宿科技,2022,O1,ITIL,不算,method_reference,平台融入ITIL等运维理念,seed_v2
+梦网科技,2023,D3,数据管理能力成熟度,不算,customer_service,子公司业务涵盖DCMM授权培训服务,agent_draft
+梦网科技,2024,D3,数据管理能力成熟度,不算,customer_service,子公司业务涵盖DCMM授权培训服务,agent_draft
+天融信,2024,D1,个人信息保护认证,不算,regulation_cite,《规定》免予申报条件,agent_draft
+国投智能,2024,D1,个人信息保护认证,不算,regulation_cite,《促进和规范数据跨境流动规定》,agent_draft
+蓝盾股份,2020,A4,CMMI,不算,definition,释义表,agent_draft
+任子行,2021,D1,个人信息保护认证,不算,regulation_cite,《网络数据安全管理条例(征求意见稿)》,agent_draft
+任子行,2022,D1,个人信息保护认证,不算,regulation_cite,《网络数据安全管理条例(征求意见稿)》,agent_draft
+任子行,2024,D1,个人信息保护认证,不算,regulation_cite,数据出境制度调整,agent_draft
+绿盟科技,2022,D1,个人信息保护认证,不算,regulation_cite,政策清单,agent_draft
+绿盟科技,2023,D1,个人信息保护认证,不算,regulation_cite,政策清单,agent_draft
+中孚信息,2022,D1,个人信息保护认证,不算,regulation_cite,政策报告引用,agent_draft
+中孚信息,2023,D1,个人信息保护认证,不算,regulation_cite,征求意见稿,agent_draft
+中孚信息,2024,D1,个人信息保护认证,不算,regulation_cite,数据出境规定,agent_draft
+开普云,2023,D1,个人信息保护认证,不算,regulation_cite,《促进和规范数据跨境流动规定》,agent_draft
+北路智控,2024,A4,CMMI,不算,definition,释义：CMMI认证指,agent_draft
+和达科技,2021,A4,CMMI,不算,definition,释义表,agent_draft
+和达科技,2023,A4,CMMI,不算,definition,释义表,agent_draft
+和达科技,2024,A4,CMMI,不算,definition,释义表,agent_draft
+开普云,2020,A4,CMMI,不算,definition,释义表,agent_draft
+开普云,2022,A4,CMMI,不算,definition,释义表,agent_draft
+威士顿,2024,D3,DCMM,不算,definition,释义表,agent_draft
+通行宝,2024,A4,CMMI,不算,definition,释义表,agent_draft
+软通动力,2021,A4,CMMI,不算,definition,CMMI 概念介绍,agent_draft
+星环科技,2024,D3,DCMM,不算,customer_service,产品满足企业对DCMM的适配要求,agent_draft
+莱斯信息,2023,A4,CMMI,不算,industry_context,资质壁垒描述,agent_draft
+莱斯信息,2024,A4,CMMI,不算,industry_context,资质壁垒描述,agent_draft
+莱斯信息,2024,D3,DCMM,不算,industry_context,资质壁垒描述,agent_draft
+国芯科技,2023,A4,等保三级,不算,industry_context,市场对等保三级的需求,agent_draft
+正元智慧,2022,D3,数据管理能力成熟度,不算,future,完成资质申报（尚未取得）,agent_draft
+东软集团,2020,O1,ITIL,不算,method_reference,融合ITIL等模型方法的理念,agent_draft
+东软集团,2021,O1,ITIL,不算,method_reference,融合ITIL等模型方法的理念,agent_draft
+金现代,2022,O1,ITIL,不算,method_reference,平台建设遵循ITIL标准,agent_draft
+中控技术,2023,A4,CMMI,不算,method_reference,研发设计域融合CMMI,agent_draft
+格灵深瞳,2022,A4,ISO27001,不算,method_reference,根据ISO27001建立内部制度（未称取得认证）,agent_draft
+格灵深瞳,2024,A4,ISO27001,不算,method_reference,根据ISO27001建立内部制度（未称取得认证）,agent_draft
+天源迪科,2024,M4,算法备案,算,filing_mention,成功通过国家生成合成算法备案（无编号）,seed_v2
+天源迪科,2020,A4,CMMI,算,held_claim,证书清单,seed_v2
+虹软科技,2024,M4,算法备案,算,filing_mention,多个算法通过深度合成服务算法备案,seed_v2
+常山北明,2021,A4,CMMI,算,held_claim,通过了CMMI5级,agent_draft
+东方国信,2021,O4,业务连续性管理体系,算,held_claim,证书清单含编号与有效期,agent_draft
+思特奇,2024,D3,数据管理能力成熟度,算,held_claim,DCMM 证书编号,agent_draft
+*ST慧辰,2023,M4,算法备案,算,filing_mention,网信算备编号,agent_draft
+太极股份,2020,A4,ISO 27001,算,held_claim,通过ISO27001认证,agent_draft
+芯原股份,2021,A4,ISO27001,算,held_claim,已通过ISO27001,agent_draft
+盛视科技,2021,A4,CMMI,算,held_claim,报告期内通过CMMI5级认证,agent_draft
+普元信息,2024,D3,DCMM,算,held_claim,成功获得DCMM四级,agent_draft
+金山办公,2023,A4,ISO 27001,算,held_claim,通过ISO27001,agent_draft
+天融信,2024,M4,算法备案,算,filing_mention,完成双备案,agent_draft
+博汇科技,2024,M4,算法备案,算,filing_mention,完成深度合成服务算法备案,agent_draft
+开普云,2023,M4,算法备案,算,filing_mention,成功通过深度合成服务算法备案,agent_draft
+科大国创,2024,M4,生成式人工智能服务备案,算,filing_mention,通过生成式人工智能服务备案,agent_draft
+彩讯股份,2024,M4,算法备案,算,filing_mention,完成大模型算法备案,agent_draft
+盛科通信,2024,A4,ISO27001,算,held_claim,成功通过ISO27001,agent_draft
+浩瀚深度,2024,A4,ISO27001,算,held_claim,成功通过ISO27001,agent_draft
+海天瑞声,2022,A4,ISO27001,算,held_claim,继续持有ISO27001,agent_draft
+中科软,2021,A4,CMMI,算,held_claim,持续保持CMMI5认证,agent_draft
+南威软件,2023,D3,DCMM,算,held_claim,取得DCMM三级认证,agent_draft
+莱斯信息,2023,D3,DCMM,算,held_claim,已取得DCMM三级资质,agent_draft
+东方电子,2022,A4,ISO27001,算,held_claim,先后通过ISO27001,agent_draft
+铜牛信息,2020,O4,业务连续性管理体系,算,held_claim,通过ISO22301,agent_draft
+卓易信息,2021,A4,ISO27001,算,held_claim,通过ISO27001,agent_draft
+金现代,2020,O1,ISO20000,算,held_claim,资质清单（通过了…）,agent_draft
+久其软件,2023,D3,数据管理能力成熟度,算,held_claim,报告期内新获DCMM三级证书（第二章判BARE）,agent_draft
+绿盟科技,2024,A4,CMMI,算,held_claim,成功达到CMMI V3.0五级（第二章判BARE）,agent_draft
+彩讯股份,2022,O4,业务连续性管理体系,算,held_claim,证书表含编号与有效期（第二章判BARE）,agent_draft
+海天瑞声,2021,A1,DPO,算,held_claim,设有数据保护官（第二章判BARE）,agent_draft
+朗新科技,2020,A4,CMMI,算,held_claim,于2017年通过CMMI L5（第二章判BARE）,agent_draft
+辰安科技,2020,A4,CMMI,不算,training,认证类培训,agent_draft
+电科网安,2023,A4,CMMI,不算,training,CMMI高成熟度模型培训,agent_draft
+银信科技,2021,O1,ITIL,不算,training,厂商培训,agent_draft
+智洋创新,2024,D3,DCMM,不算,irrelevant_context,独董简历中的DCMM数据管理师,agent_draft
+卫宁健康,2024,M4,生成式人工智能服务备案,不算,regulation_cite,网信办公告,agent_draft
+财富趋势,2024,M4,算法备案,不算,regulation_cite,出台算法备案要求,agent_draft
+龙迅股份,2024,A4,ISO27001,不算,future,正在推进体系建设,agent_draft
+芯朋微,2022,O4,业务连续性管理体系,不算,method_reference,基于ISO22301要求开展,agent_draft
+乐鑫科技,2024,A4,ISO 27001,不算,method_reference,围绕ISO27001建立制度（未称取得认证）,agent_draft
+航天宏图,2020,A4,CMMI,不算,definition,CMMI概念介绍,agent_draft
+信安世纪,2022,O1,ISO20000,不算,definition,释义：ISO20000指,agent_draft
