@@ -1,0 +1,218 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "金现代",
+    "entity_id": "300830",
+    "ABRI_T": 51.96,
+    "T_tier": "T5",
+    "tier": 5,
+    "O_eq": 83.75,
+    "S_score": 36.0,
+    "S_high": 1,
+    "red_flag": 1,
+    "EVC": 3.75,
+    "filed": 0
+  },
+  "cards": [
+    {
+      "kind": "review",
+      "entity_name": "金现代",
+      "fiscal_year": 2020,
+      "document_id": "CNINFO_1209796532",
+      "item": "O1",
+      "keyword": "ISO20000",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "算",
+      "cert_id_found": false,
+      "status": "披露但未核实",
+      "label": "held_claim",
+      "confidence": 0.65,
+      "citation": "力成熟度集成模型CMMI5认证、信息技术服务运行维护标准ITSS认证，以及ISO9001:2015质量管理体系、ISO20000-1:2011信息技术服务管理体系、ISO27001:2013信息安全管理体系、金现代信息产业股份有限公司202",
+      "other_support": "",
+      "reason": "资质清单的一项，句首动词为取得/通过类，需核对证书编号。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "服务运行维护标准ITSS认证，以及ISO9001:2015质量管理体系、ISO20000-1:2011信息技术服务管理体系、ISO27001:2013信息安全管",
+      "tool_trace": [
+        "judge:held_claim/rules/0.65",
+        "find_cert_id:False"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1209796532:O1:ISO20000"
+    },
+    {
+      "kind": "review",
+      "entity_name": "金现代",
+      "fiscal_year": 2020,
+      "document_id": "CNINFO_1209796532",
+      "item": "A4",
+      "keyword": "ISO27001",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "算",
+      "cert_id_found": false,
+      "status": "披露但未核实",
+      "label": "held_claim",
+      "confidence": 0.65,
+      "citation": "标准ITSS认证，以及ISO9001:2015质量管理体系、ISO20000-1:2011信息技术服务管理体系、ISO27001:2013信息安全管理体系、金现代信息产业股份有限公司2020年年度报告全文19ISO14001:2015环境管",
+      "other_support": "",
+      "reason": "资质清单的一项，句首动词为取得/通过类，需核对证书编号。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "015质量管理体系、ISO20000-1:2011信息技术服务管理体系、ISO27001:2013信息安全管理体系、金现代信息产业股份有限公司2020年年度报告",
+      "tool_trace": [
+        "judge:held_claim/rules/0.65",
+        "find_cert_id:False"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1209796532:A4:ISO27001"
+    },
+    {
+      "kind": "review",
+      "entity_name": "金现代",
+      "fiscal_year": 2022,
+      "document_id": "CNINFO_1216405708",
+      "item": "O1",
+      "keyword": "ITIL",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "平台建设过程中遵循ITIL、ITSS等标准，先后获得ITSS优秀案例、首版次高端软件、山东省优秀软件产品等荣誉",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "建立故障分析模型，故障发生时自动分析推荐最有可能原因。平台建设过程中遵循ITIL、ITSS等标准，先后获得ITSS优秀案例、首版次高端软件、山东省优秀软",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "expand_context→method_reference/rules",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1216405708:O1:ITIL"
+    }
+  ],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 85.0,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 1,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1216405708",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "loose": {
+      "O_prime": 85.83,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 3,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1209796532",
+          "fiscal_year": 2020,
+          "item": "O1",
+          "from": "L2",
+          "to": "L1b"
+        },
+        {
+          "document_id": "CNINFO_1209796532",
+          "fiscal_year": 2020,
+          "item": "A4",
+          "from": "L2",
+          "to": "L1b"
+        },
+        {
+          "document_id": "CNINFO_1216405708",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "strict_upper": {
+      "O_prime": 85.0,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 1,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1216405708",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    }
+  },
+  "suggestion": "部分原记 L2 的命中不构成本企业证据，已出补件项。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "find_cert_id",
+    "find_cert_id",
+    "expand_context",
+    "same_doc_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 5
+}

@@ -1,0 +1,154 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "光庭信息",
+    "entity_id": "301221",
+    "ABRI_T": 27.21,
+    "T_tier": "T4",
+    "tier": 3,
+    "O_eq": 85.42,
+    "S_score": 47.5,
+    "S_high": 1,
+    "red_flag": 1,
+    "EVC": 3.12,
+    "filed": 0
+  },
+  "cards": [
+    {
+      "kind": "review",
+      "entity_name": "光庭信息",
+      "fiscal_year": 2021,
+      "document_id": "CNINFO_1212943524",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "算",
+      "cert_id_found": false,
+      "status": "披露但未核实",
+      "label": "held_claim",
+      "confidence": 0.75,
+      "citation": "（2）公司取得的重要资质与荣誉公司拥有国际软件能力成熟度认证评估的最高资质CMMI2.05资质，同时公司也拥有甲级测绘资质、CNAS专业资质、A-SPICE认证等多项专业资质和认证",
+      "other_support": "",
+      "reason": "声称本企业（或子公司）取得认证/资质，需核对证书编号。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "2）公司取得的重要资质与荣誉公司拥有国际软件能力成熟度认证评估的最高资质CMMI2.05资质，同时公司也拥有甲级测绘资质、CNAS专业资质、A-SPIC",
+      "tool_trace": [
+        "judge:held_claim/rules/0.75",
+        "expand_context→held_claim/rules",
+        "find_cert_id:False"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1212943524:A4:CMMI"
+    },
+    {
+      "kind": "review",
+      "entity_name": "光庭信息",
+      "fiscal_year": 2024,
+      "document_id": "CNINFO_1223143186",
+      "item": "A4",
+      "keyword": "CMMI",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "待人工",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "公司在CMMI和A-SPICE体系的基础上，引入SOP体系将软件开发过程标准化，建立专业软件开发流程体系；公司基于SCRUM的",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。 但 [2021] 年同一关键词有持证陈述，可能仍在有效期内，不自动降级。",
+      "needs_human": true,
+      "backend": "rules",
+      "snippet": "atingProcedure，SOP），建立了完善的质量管理体系。公司在CMMI和A-SPICE体系的基础上，引入SOP体系将软件开发过程标准化，建立专",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "expand_context→method_reference/rules",
+        "same_doc_search:无其他支持",
+        "compare_years→[2021]有持证陈述"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1223143186:A4:CMMI"
+    }
+  ],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 85.42,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    },
+    "loose": {
+      "O_prime": 85.94,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 1,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1212943524",
+          "fiscal_year": 2021,
+          "item": "A4",
+          "from": "L2",
+          "to": "L1b"
+        }
+      ]
+    },
+    "strict_upper": {
+      "O_prime": 85.42,
+      "red_flag_prime": 1,
+      "flip": 0,
+      "n_down": 0,
+      "n_up": 0,
+      "changes": []
+    }
+  },
+  "suggestion": "有卡片待人工确认，已写入审批队列。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "expand_context",
+    "find_cert_id",
+    "expand_context",
+    "same_doc_search",
+    "compare_years",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 1,
+  "n_years": 4
+}

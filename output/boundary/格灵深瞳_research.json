@@ -1,0 +1,380 @@
+{
+  "hard_lock": {
+    "score_action": "none",
+    "pricing_action": "none",
+    "insurability": "unchanged",
+    "filing_enters_score": false
+  },
+  "mode": "research",
+  "profile": {
+    "entity_name": "格灵深瞳",
+    "entity_id": "688207",
+    "ABRI_T": 74.84,
+    "T_tier": "T5",
+    "tier": 5,
+    "O_eq": 61.81,
+    "S_score": 46.67,
+    "S_high": 1,
+    "red_flag": 0,
+    "EVC": 10.42,
+    "filed": 1
+  },
+  "cards": [
+    {
+      "kind": "review",
+      "entity_name": "格灵深瞳",
+      "fiscal_year": 2022,
+      "document_id": "CNINFO_1216472414",
+      "item": "O1",
+      "keyword": "ISO20000",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "在技术委员会下设人工智能伦理审核小组，保障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查相关内部制度；（3）通过打造人工智能安全基础设施，对数据获",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查相关内部制度；（3",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1216472414:O1:ISO20000"
+    },
+    {
+      "kind": "review",
+      "entity_name": "格灵深瞳",
+      "fiscal_year": 2022,
+      "document_id": "CNINFO_1216472414",
+      "item": "A4",
+      "keyword": "ISO27001",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "安全管理委员会，并在技术委员会下设人工智能伦理审核小组，保障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查相关内部制度；（3）通过打造人工智能安全",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "能伦理审核小组，保障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1216472414:A4:ISO27001"
+    },
+    {
+      "kind": "review",
+      "entity_name": "格灵深瞳",
+      "fiscal_year": 2023,
+      "document_id": "CNINFO_1219856826",
+      "item": "O1",
+      "keyword": "ISO20000",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "在技术委员会下设人工智能伦理审核小组，保障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查相关内部制度；（3）通过打造人工智能安全基础设施，对数据获",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查相关内部制度；（3",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1219856826:O1:ISO20000"
+    },
+    {
+      "kind": "review",
+      "entity_name": "格灵深瞳",
+      "fiscal_year": 2023,
+      "document_id": "CNINFO_1219856826",
+      "item": "A4",
+      "keyword": "ISO27001",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 0,
+      "ch2_verdict": "BARE",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "安全管理委员会，并在技术委员会下设人工智能伦理审核小组，保障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查相关内部制度；（3）通过打造人工智能安全",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "能伦理审核小组，保障公司数据信息的安全合规性及伦理规范性；（2）公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全、伦理审查",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1219856826:A4:ISO27001"
+    },
+    {
+      "kind": "review",
+      "entity_name": "格灵深瞳",
+      "fiscal_year": 2024,
+      "document_id": "CNINFO_1223325180",
+      "item": "O1",
+      "keyword": "ISO20000",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": "护情况1、设立信息安全管理小组，并聘请外部专业顾问，保障公司数据信息的安全合规性；2、公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全等相关内部制度；3、通过打造人工智能安全基础设施，对数据获取、传输、",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "部专业顾问，保障公司数据信息的安全合规性；2、公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全等相关内部制度；3、通过打造",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供运维或服务管理体系证书编号、主体和有效期。",
+      "card_id": "CNINFO_1223325180:O1:ISO20000"
+    },
+    {
+      "kind": "review",
+      "entity_name": "格灵深瞳",
+      "fiscal_year": 2024,
+      "document_id": "CNINFO_1223325180",
+      "item": "A4",
+      "keyword": "ISO27001",
+      "frozen_level": "L2",
+      "ch2_counts_as_L2": 1,
+      "ch2_verdict": "POS",
+      "semantic": "不算",
+      "cert_id_found": false,
+      "status": "不支持",
+      "label": "method_reference",
+      "confidence": 0.75,
+      "citation": ")数据安全与隐私保护情况1、设立信息安全管理小组，并聘请外部专业顾问，保障公司数据信息的安全合规性；2、公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全等相关内部制度；3、通过打造人工智能安全基础设施，",
+      "other_support": "",
+      "reason": "按某标准或方法论开展工作，未声称取得第三方认证。",
+      "needs_human": false,
+      "backend": "rules",
+      "snippet": "管理小组，并聘请外部专业顾问，保障公司数据信息的安全合规性；2、公司根据ISO27001、ISO20000、ISO27701等国际标准，建立了数据安全等相关内部",
+      "tool_trace": [
+        "judge:method_reference/rules/0.75",
+        "same_doc_search:无其他支持"
+      ],
+      "filing_note": [],
+      "followup": "请提供认证证书编号、获证主体、有效期和覆盖范围。",
+      "card_id": "CNINFO_1223325180:A4:ISO27001"
+    }
+  ],
+  "upgrade_cards": [],
+  "scenario": {
+    "strict": {
+      "O_prime": 74.31,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 6,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1216472414",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216472414",
+          "fiscal_year": 2022,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219856826",
+          "fiscal_year": 2023,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219856826",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1223325180",
+          "fiscal_year": 2024,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1223325180",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "loose": {
+      "O_prime": 74.31,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 6,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1216472414",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216472414",
+          "fiscal_year": 2022,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219856826",
+          "fiscal_year": 2023,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219856826",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1223325180",
+          "fiscal_year": 2024,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1223325180",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    },
+    "strict_upper": {
+      "O_prime": 74.31,
+      "red_flag_prime": 0,
+      "flip": 0,
+      "n_down": 6,
+      "n_up": 0,
+      "changes": [
+        {
+          "document_id": "CNINFO_1216472414",
+          "fiscal_year": 2022,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1216472414",
+          "fiscal_year": 2022,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219856826",
+          "fiscal_year": 2023,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1219856826",
+          "fiscal_year": 2023,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1223325180",
+          "fiscal_year": 2024,
+          "item": "O1",
+          "from": "L2",
+          "to": "L0"
+        },
+        {
+          "document_id": "CNINFO_1223325180",
+          "fiscal_year": 2024,
+          "item": "A4",
+          "from": "L2",
+          "to": "L0"
+        }
+      ]
+    }
+  },
+  "suggestion": "部分原记 L2 的命中不构成本企业证据，已出补件项。 本 Agent 不改冻结分数、相对因子和承保结论。",
+  "tools_used": [
+    "same_doc_search",
+    "same_doc_search",
+    "same_doc_search",
+    "same_doc_search",
+    "same_doc_search",
+    "same_doc_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search",
+    "recall_search"
+  ],
+  "approval_queued": 0,
+  "n_years": 3
+}
